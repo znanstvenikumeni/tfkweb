@@ -1,0 +1,13 @@
+.primary-frontpage{
+	background-image: url('cover.jpg');
+	background-size: cover;
+}
+.logo{
+	max-height:128px;
+}
+.invert{
+	filter:	invert(1);
+}
+.white{
+	color: #fff;
+}
