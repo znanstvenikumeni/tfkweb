@@ -11,3 +11,91 @@
 .white{
 	color: #fff;
 }
+
+.videoHeader {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoHeader video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.videoHeader .container {
+  position: relative;
+  z-index: 2;
+}
+
+.videoHeader .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+body, html{
+	font-family: 'Muli', sans-serif;
+}
+.accent{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-style: italic;
+}
+h1, h2, h3{
+	font-family: 'Playfair Display', serif;
+}
+.pushdown{
+	padding-top: 42px;
+}
+.pushleft{
+	position: relative;
+	left: -20vw;
+}
+
+.primary{
+	color: #7c5799;
+}
+.btn-primary{
+	background-color: #7c5799;
+}
+.border-fancy{
+	border: 5px solid #7c5799;
+	outline: 1px solid #7c5799;
+	outline-offset: 7px;
+}
+.gray{
+	background-color:
+rgb(245, 250, 253);
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.pushmargindown{
+	margin-top: 42px;
+}
+/*
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}*/

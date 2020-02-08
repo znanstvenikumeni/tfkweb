@@ -1,0 +1,15 @@
+{
+    "name": "znanstvenikumeni/tfkweb",
+    "description": "The TFK Website and CMS",
+    "type": "project",
+    "license": "MPL",
+    "authors": [
+        {
+            "name": "Mario Borna Mjertan",
+            "email": "mbm@educateam.hr"
+        }
+    ],
+    "require": {
+        "gabordemooij/redbean": "^5.4"
+    }
+}
