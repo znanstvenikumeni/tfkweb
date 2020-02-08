@@ -100,7 +100,112 @@ if(!isset($_GET['preview'])){
   <div class="container">
   <h2>Show your ability to <span class="accent">transfer your knowledge</span> and explain demanding concepts.</h2>
   <p>Znamo da razumiješ znanstvene koncepte i složene, ali zanimljive stvari iz svijeta znanosti. Želimo nadahnuti i razviti mlade komunikatore znanosti.</p>
+</div>
+</div>
+<div class="pushdown container">
+    <h1>Meet the jury.</h1>
+    <p>Applicants are rated by a panel of five jurors. Click on any jury member to find out more about them.</p>
+    <div class="row">
+      <div class="col-sm-2">
+        <a onclick="jury('bertosa')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Bertosa-e1567182959107.jpg" style="max-height: 128px;" class="border-fancy"><br><br>Branimir Bertoša
+        </a>
+      </div>
+      <div class="col-sm-2">
+        <a onclick="jury('brueckler')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/fmb2.png" style="max-height: 128px;" class="border-fancy"><br><br>Franka Miriam Brueckler
+        </a>
+      </div>
+      <div class="col-sm-2">
+        <a onclick="jury('mjertan')">
+          <img src="https://znanstvenikumeni.org/cdn/img/mbm.jpg" style="max-height: 128px;" class="border-fancy"><br><br>Mario Borna Mjertan
+        </a>
+      </div>
+      <div class="col-sm-2">
+        <a onclick="jury('puljak')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Puljak-e1567183007653.jpg" style="max-height: 128px;" class="border-fancy"><br><br>Ivica Puljak
+        </a>
+      </div>
+       <div class="col-sm-2">
+        <a onclick="jury('sostaric')">
+          <img src="https://znanstvenikumeni.org/cdn/img/ns.jpg" style="max-height: 128px;" class="border-fancy"><br><br>Nikolina Šoštarić
+        </a>
+      </div>
+    </div>
+</div>
 
+<div class="jurymember jury-bertosa">
+  <div class="row pushdown">
+      <div class="col-md-6">
+        <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Bertosa-e1567182959107.jpg" style="max-width: 450px;" class="pushleft-little border-fancy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="primary">Branimir Bertoša</h1>
+        <h2 class="accent">Jury member</h2>
+        <p>Branimir Bertoša is an associate professor at the Department of Chemistry of the University of Zagreb Faculty of Science.</p>
+        <p>His research interests lie in molecular biophysics and computable biophysics, as well as game theory. This is obviously a placeholder.</p>
+      </div>
+    </div>
+</div>
+
+<div class="jurymember jury-brueckler">
+  <div class="row pushdown">
+      <div class="col-md-6">
+        <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/fmb2.png" style="max-width: 450px;" class="pushleft-little border-fancy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="primary">Franka Miriam Brueckler</h1>
+        <h2 class="accent">Jury member</h2>
+        <p>Branimir Bertoša is an associate professor at the Department of Chemistry of the University of Zagreb Faculty of Science.</p>
+        <p>His research interests lie in molecular biophysics and computable biophysics, as well as game theory. This is obviously a placeholder.</p>
+      </div>
+    </div>
+</div>
+
+<div class="jurymember jury-mjertan">
+  <div class="row pushdown">
+      <div class="col-md-6">
+        <img src="https://znanstvenikumeni.org/cdn/img/mbm.jpg" style="max-width: 450px;" class="pushleft-little border-fancy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="primary">Mario Borna Mjertan</h1>
+        <h2 class="accent">Jury member</h2>
+        <p>Branimir Bertoša is an associate professor at the Department of Chemistry of the University of Zagreb Faculty of Science.</p>
+        <p>His research interests lie in molecular biophysics and computable biophysics, as well as game theory. This is obviously a placeholder.</p>
+      </div>
+    </div>
+</div>
+
+<div class="jurymember jury-puljak">
+  <div class="row pushdown">
+      <div class="col-md-6">
+        <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Puljak-e1567183007653.jpg" style="max-width: 450px;" class="pushleft-little border-fancy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="primary">Ivica Puljak</h1>
+        <h2 class="accent">Jury member</h2>
+        <p>Branimir Bertoša is an associate professor at the Department of Chemistry of the University of Zagreb Faculty of Science.</p>
+        <p>His research interests lie in molecular biophysics and computable biophysics, as well as game theory. This is obviously a placeholder.</p>
+      </div>
+    </div>
+</div>
+
+<div class="jurymember jury-sostaric">
+  <div class="row pushdown">
+      <div class="col-md-6">
+        <img src="https://znanstvenikumeni.org/cdn/img/ns.jpg" style="max-width: 450px;" class="pushleft-little border-fancy">
+      </div>
+      <div class="col-md-6">
+        <h1 class="primary">Nikolina Šoštarić</h1>
+        <h2 class="accent">Jury member</h2>
+        <p>Branimir Bertoša is an associate professor at the Department of Chemistry of the University of Zagreb Faculty of Science.</p>
+        <p>His research interests lie in molecular biophysics and computable biophysics, as well as game theory. This is obviously a placeholder.</p>
+      </div>
+    </div>
+</div>
+
+<div class="gray pushmargindown">
+  <div class="container">
   <h1>Still in development.</h1>
   <p>We're still preparing for the public launch of TFK, so this website is heavily under development.</p>
   <p>Information presented here may not be accurate or reliable and the website itself isn't stable and fully functional yet.</p>
@@ -114,5 +219,13 @@ if(!isset($_GET['preview'])){
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      function jury(member){
+        $('.jury-'+member).css('display', 'block');
+      }
+      function close(element){
+        $('.'+element).css('display', 'none');
+      }
+    </script>
   </body>
 </html>
