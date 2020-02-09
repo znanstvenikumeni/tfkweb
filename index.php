@@ -105,7 +105,7 @@ if(!isset($_GET['preview'])){
 <div class="pushdown container">
     <h1>Meet the jury.</h1>
     <p>Applicants are rated by a panel of five jurors. Click on any jury member to find out more about them.</p>
-    <div class="row">
+    <div class="row align-items-center justify-content-center">
       <div class="col-sm-2">
         <a onclick="jury('bertosa')">
           <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Bertosa-e1567182959107.jpg" style="max-height: 128px;" class="border-fancy"><br><br>Branimir Bertoša
@@ -204,7 +204,42 @@ if(!isset($_GET['preview'])){
     </div>
 </div>
 
-<div class="gray pushmargindown">
+<div class="pushdown container">
+    <h1>Made possible by our sponsors.</h1>
+    <p>We couldn't organise TFK without the support of our sponsors. Click on any sponsor to find out more about them.</p>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-sm-3">
+        <a onclick="sponsor('Infinum')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/Infinum.png" style="max-height: 64px;"><br><br>Infinum
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a onclick="sponsor('MI')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/07/medical-intertrade-logo.png" style="max-height: 64px;"><br><br>Medical Intertrade
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a onclick="sponsor('Imimot')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/07/Imimot-logo.png" style="max-height: 64px;"><br><br>Imimot
+        </a>
+      </div>
+      <div class="col-sm-3">
+        <a onclick="sponsor('ZSEM')">
+          <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/08/logo.png" style="max-height: 64px;"><br><br>ZŠEM
+        </a>
+      </div>
+
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid primary-frontpage pushmargindown">
+  <div class="container">
+    <h1 class="display-4 white">Made possible by <span class="accent">incredibly passionate volunteers</span>.</h1>
+    <p class="lead white">Together for Knowledge is organised by the <a href="https://initiative.togetherforknowledge.eu" class="white underline">TFK Initiative</a>, a non-profit collaborative effort between Educateam and the Society for Out-of-Frame Education. Get to know who makes TFK happen on the Initiative website.</p>
+  </div>
+</div>
+
+<div class="gray">
   <div class="container">
   <h1>Still in development.</h1>
   <p>We're still preparing for the public launch of TFK, so this website is heavily under development.</p>
@@ -213,6 +248,26 @@ if(!isset($_GET['preview'])){
   <p>If you need to contact us, please email us at tfk@togetherforknowledge.eu</p>
 </div>
 </div>
+
+<div class="footer-zum">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6">
+            <p>Together for Knowledge is a TFK Initiative project.</p>
+            <small>© 2019 Together for Knowledge Initiative</small><br><br>
+
+          </div>
+          <div class="col-md-6">
+            <b>Resources</b><br><br>
+            <a href="/pr">Press</a><br>
+            <a href="/privacy">Privacy policy</a><br>
+            <a href="https://confluence.educateam.hr/x/HQBj">Help for applicants and mentors</a><br>
+            <a href="/about-the-project">About the project</a><br>
+            TFK on <a href="https://instagram.com/znanstvenikumeni">Instagram</a> and <a href="https://facebook.com/znanstvenikumeni">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
